@@ -175,6 +175,9 @@ dependencies:
     # Adding a11y-checker package to datahub image since it is required for demoing the extension in workshop hub to non Berkeley folks
     - jupyterlab-a11y-checker==0.2.2
 
+    # [DH-488], Legal Studies 123, https://github.com/berkeley-dsep-infra/datahub/issues/6964
+    - gensim==4.4.0
+
     # ATTEMPT TO PUT NEW PACKAGES IN THE CONDA LIST ABOVE FIRST, RATHER THAN PIP
 
 
